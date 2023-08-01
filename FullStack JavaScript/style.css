@@ -1,0 +1,70 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+.form-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh; 
+
+  }
+
+  label {
+
+    display: block;
+    color: brown;
+    width: 100px;
+    height: 30px;;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+  }
+
+  input[type="text"],
+
+  input[type="email"],
+
+  textarea {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    padding: 5px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 8px;
+
+  }
+
+  input[type="submit"] {
+
+    background-color: #4CAF50;
+    
+    color: white;
+
+    padding: 15px 65px;
+
+    border: none;
+ 
+    border-radius: 2.5px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+  }
+
+  input[type="submit"]:hover {
+
+    background-color: #3e8e41;
+
+  }
